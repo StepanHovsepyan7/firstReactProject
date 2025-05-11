@@ -2,18 +2,78 @@
   background-position: center;
   height: 600px;
   width: 100%;
-  background-image: url('../public/home.png');
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-image: url("../public/home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 30px;
 }
-.propertyParent{
+.propertyParent {
   padding-top: 150px;
 }
-header{
-  z-index: 99;
+header {
+  z-index: 999;
 }
-.loginbtn{
-  border: 2px solid #1DAEFF;
+.loginbtn {
+  border: 2px solid #1daeff;
   font-weight: bold;
+}
+.advertismentParent {
+  background: linear-gradient(90deg, #daebf9 0%, #eaf4fc 100%);
+  border-radius: 50px;
+  margin-top: 120px;
+  justify-content: space-around;
+}
+.buildImg {
+  width: 750px;
+  object-fit: cover;
+}
+img {
+  object-fit: contain;
+}
+li {
+  cursor: pointer;
+}
+.inp {
+  border: 2px solid #d0d0e3;
+  border-radius: 15px;
+  /* width: 277px; */
+  height: 54px;
+  padding-left: 15px;
+  font-size: 14px;
+  outline: none;
+  margin-top: 22px;
+}
+.sendBtn {
+  position: absolute;
+  right: 12px;
+  top: 65%;
+  transform: translateY(-50%);
+  background-color: #1daeff;
+  color: white;
+  border: none;
+  height: 34px;
+  width: 34px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.sendBtn i {
+  font-size: 10px;
+}
+i {
+  cursor: pointer;
+}
+
+/* media */
+
+@media only screen and (max-width: 725px) {
+  .glassBtn {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .author {
+    display: none;
+  }
 }

@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Countries from './Countries';
+import Footer from './Footer';
 
 import Header from './Header';
 import Properties from './Properties';
@@ -22,6 +23,9 @@ function App() {
       <Recentlyadded>
         
       </Recentlyadded>
+      <Footer>
+        
+      </Footer>
     </div>
   );
 }
