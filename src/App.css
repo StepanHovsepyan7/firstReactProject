@@ -10,3 +10,10 @@
 .propertyParent{
   padding-top: 150px;
 }
+header{
+  z-index: 99;
+}
+.loginbtn{
+  border: 2px solid #1DAEFF;
+  font-weight: bold;
+}
