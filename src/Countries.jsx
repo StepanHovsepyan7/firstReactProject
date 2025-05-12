@@ -1,6 +1,6 @@
 export default function Countries() {
   return (
-    <div class="max-w-[1440px] mx-auto py-5 px-4 mt-[103px] ">
+    <div className="max-w-[1440px] mx-auto py-5 px-4 mt-[103px] ">
       <h2 className="text-center text-[#110229] text-4xl font-bold">
         We are available in many <br /> well-known countries
       </h2>
